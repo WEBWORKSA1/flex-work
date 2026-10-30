@@ -252,7 +252,7 @@ def videos():
 
 # ---------------------------------------------------------------- resources
 def resources():
-    allstats = [(t, s, u) for _, t, s, u in STATS] + MORE_STATS
+    allstats = [(big + " " + t, s, u) for big, t, s, u in STATS] + MORE_STATS
     rows = "".join(f'<tr><td>{t}</td><td><a href="{u}" target="_blank" rel="noopener nofollow">{s}</a></td></tr>' for t, s, u in allstats)
     orgs = [
         ("Gallup — hybrid work indicator", "https://www.gallup.com/401384/indicator-hybrid-work.aspx", "Quarterly US data on where remote-capable employees work and want to work."),
