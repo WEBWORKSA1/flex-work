@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /_build/
+Disallow: /thank-you.html
+
+Sitemap: https://flex.work/sitemap.xml

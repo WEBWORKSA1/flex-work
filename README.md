@@ -24,7 +24,7 @@ It's a static site (HTML, CSS and vanilla JS) built for **GitHub Pages on the fr
 python3 _build/build.py
 ```
 
-Change content in `_build/*.py`, rebuild, then commit the generated HTML. The **Build site** GitHub Action also regenerates and commits the HTML automatically whenever `_build/` or `assets/` changes on `main`.
+Change content in `_build/*.py`, rebuild, then commit the generated HTML.
 
 ## Forms
 
